@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us{% endblock title %}
+
+{% block body %}
+
+  <div class="jumbotron p-5 text-white rounded bg-info" style="height: 560px; position: relative;">
+    <div class="col-md-6 px-0" style="margin: 95px;">
+      <h1 class="display-4" style="font-size: 90px;">About Us!</h1>
+      <p class="lead my-3">
+        WELCOME TO KENYA'S MOST TRUSTED CAR RENTAL WEBSITE<br>
+        OusaRentals was established by 4 friends during peak COVID days:
+        <br>Stephanie Regina<br>
+        Jack Baraka<br>
+        Lister Kemuma<br>
+        Eddy Ousa
+      </p>
+      <a class="btn btn-dark btn-lg" href="#123" role="button">Learn more</a>
+    </div>
+  </div>
+
+  <div class="p-3 mb-2 text-info" id="123">
+    <div class="container-fluid px-0 text-center">
+      <h1 class="my-3">Why Choose Us?</h1>
+    </div>
+    <div class="row m-5">
+      <div class="col-xl-4">
+        <div class="container-fluid px-0">
+          {% load static %}
+          <img src="{% static 'trust.jpg' %}" width="300" height="300" style="background-color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); margin-left: auto; margin-right: auto; display: block;">
+        </div>
+        <h2 class="hd my-2 text-center">Safe</h2>
+        <p style="font-size: 20px; text-align: center;">Most trustworthy website for renting a vehicle in the world.<br> All the vehicles are well-maintained and in good condition.<br> Servicing is done every two weeks.</p>
+      </div>
+
+      <div class="col-xl-4">
+        <div class="container-fluid px-0">
+          {% load static %}
+          <img src="{% static 'affordable.jpg' %}" width="300" height="300" style="background-color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); margin-left: auto; margin-right: auto; display: block;">
+        </div>
+        <h2 class="hd my-2 text-center">Affordable Prices</h2>
+        <p style="font-size: 20px; text-align: center;">All the rentals are at affordable prices. If there is a problem with the vehicle, there is a return-back policy. Payment can be made online safely.</p>
+      </div>
+
+      <div class="col-xl-4">
+        <div class="container-fluid px-0">
+          {% load static %}
+          <img src="{% static 'car-wash.png' %}" width="300" height="300" style="background-color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); margin-left: auto; margin-right: auto; display: block;">
+        </div>
+        <h2 class="hd my-2 text-center">Hygienic</h2>
+        <p style="font-size: 20px; text-align: center;">Your comfort is our priority! All the vehicles are well-maintained and hygienic.</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock body %}

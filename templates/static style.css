@@ -1,0 +1,234 @@
+/* Global Styles */
+body {
+    background-color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #17a2b8;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #105a73;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #105a73;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #17a2b8;
+}
+
+.footer a:hover {
+    color: #105a73;
+}
+
+.footer-copyright {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Contact Form */
+.gradient-form {
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-outline label {
+    font-weight: bold;
+}
+
+.form-outline input,
+.form-outline button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.form-outline input:focus,
+.form-outline button:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+}
+
+.form-outline button {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-outline button:hover {
+    background-color: #105a73;
+}
+
+.gradient-custom-2 {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* About Us */
+.jumbotron {
+    background-color: #17a2b8;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    font-size: 3rem;
+}
+
+.jumbotron .lead {
+    font-size: 1.2rem;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+}
+
+#123 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#123 p {
+    font-size: 1.2rem;
+}
+
+.container-center img {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.hd {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.col-xl-4 img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Vehicles */
+#yo h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    background-color: #e2effb;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.p2, .p3, .p8 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #23146d;
+}
+
+.p3 span, .p2 span, .p8 span {
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(#77f7f1, #094240);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
