@@ -14,10 +14,10 @@ Django is an MVT web framework that is used to build web applications.Django has
 * SQLite3: The default database system used in Django for data storage. It is lightweight and easy to set up, making it ideal for development and small to medium-sized projects.
 
 ## How It Works
-User Registration: New users sign up by providing necessary details such as email, username, and password. Once registered, they can log in to the platform.
-Browse Cars: Users can view available cars for rent, sorted by model, type, or price.
-Rent a Car: Once a user finds a suitable vehicle, they can proceed to rent it. After the rental process is confirmed, the car is reserved for the user for the specified duration.
-Download Invoice: An invoice summarizing the rental details, including price, rental period, and car model, is automatically generated and can be downloaded.
+User Registration: New users sign up by providing necessary details such as email, username, and password. Once registered, they can log in to the platform.<br /> <br />
+Browse Cars: Users can view available cars for rent, sorted by model, type, or price.<br /> <br />
+Rent a Car: Once a user finds a suitable vehicle, they can proceed to rent it. After the rental process is confirmed, the car is reserved for the user for the specified duration.<br /> <br />
+Download Invoice: An invoice summarizing the rental details, including price, rental period, and car model, is automatically generated and can be downloaded.<br /> <br />
   
   ``
 ├── ousa_rental_system/
