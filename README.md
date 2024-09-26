@@ -5,12 +5,12 @@ User can login then rent a car<br /> <br />
 User can also download the bill generated.
 
 # Key Features
-*User Authentication: Users can create accounts, log in, and manage their profiles.
-*Car Listings: A comprehensive list of available cars for rent is provided, complete with details such as model, rental price, and availability.
-*Car Rental: Users can select and rent cars with a few simple clicks.
-*Billing and Invoice Generation: After a successful rental, users can download an automatically generated invoice for their transaction.
-*Admin Panel: Rental companies or system administrators can manage cars, users, and rentals through Django’s built-in admin interface.
-*Responsive Design: The platform is designed to work on both desktop and mobile devices, ensuring accessibility on the go.
+* User Authentication: Users can create accounts, log in, and manage their profiles.
+* Car Listings: A comprehensive list of available cars for rent is provided, complete with details such as model, rental price, and availability.
+* Car Rental: Users can select and rent cars with a few simple clicks.
+* Billing and Invoice Generation: After a successful rental, users can download an automatically generated invoice for their transaction.
+* Admin Panel: Rental companies or system administrators can manage cars, users, and rentals through Django’s built-in admin interface.
+* Responsive Design: The platform is designed to work on both desktop and mobile devices, ensuring accessibility on the go.
 *Secure Data Handling: Passwords are hashed and data is managed securely using Django's robust security features.
 
 ## About Django : <br /> <br />
