@@ -12,39 +12,6 @@ Django is an MVT web framework that is used to build web applications.Django has
 * Python 
 * SQLITE3 (Default database of django)
 
-  Installation and Setup
-To run the Ousa Car Rental System locally, follow these steps:
-
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-repo/ousa-car-rental-system.git
-Navigate to the project directory:
-bash
-Copy code
-cd ousa-car-rental-system
-Set up a virtual environment (recommended):
-bash
-Copy code
-python3 -m venv env
-source env/bin/activate
-Install the dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run database migrations:
-bash
-Copy code
-python manage.py migrate<br /> <br />
-Create a superuser (for admin access):
-bash
-Copy code
-python manage.py createsuperuser<br /> <br />
-Run the server:
-bash
-Copy code
-python manage.py runserver<br /> <br />
-Once the server is running, access the system at http://127.0.0.1:8000/.
 
 # Aknowledgements
 Django team for the excellent framework
