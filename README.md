@@ -28,6 +28,8 @@ User Registration: New users sign up by providing necessary details such as emai
 Browse Cars: Users can view available cars for rent, sorted by model, type, or price.<br /> <br />
 Rent a Car: Once a user finds a suitable vehicle, they can proceed to rent it. After the rental process is confirmed, the car is reserved for the user for the specified duration.<br /> <br />
 Download Invoice: An invoice summarizing the rental details, including price, rental period, and car model, is automatically generated and can be downloaded.<br /> <br />
+
+## Project Structure
   
   ``
 ├── ousa_rental_system/
