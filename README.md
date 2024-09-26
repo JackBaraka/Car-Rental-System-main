@@ -12,8 +12,8 @@ Django is an MVT web framework that is used to build web applications.Django has
 * Python: The main programming language used to implement the system, taking advantage of its simplicity and the Django framework.
 * Django Framework: A robust Python web framework used for both the frontend and backend development of the system.
 * SQLite3: The default database system used in Django for data storage. It is lightweight and easy to set up, making it ideal for development and small to medium-sized projects.
-
   
+  ``
 ├── ousa_rental_system/
 │   ├── __init__.py
 │   ├── settings.py
@@ -36,7 +36,7 @@ Django is an MVT web framework that is used to build web applications.Django has
 │   ├── js/
 │   ├── images/
 └── manage.py (Django's command-line utility)
-
+``
 
 # Aknowledgements
 Django team for the excellent framework
@@ -48,7 +48,7 @@ Lister Kemuma Nyanchongi
 Stephanie Regina Kemunto 
 
 ## Installation : 
-```
+
 * Clone the repository
 * Create Superuser (python manage.py createsuperuser) for accessing the admin portal
 * Type python manage.py runserver and run the program
