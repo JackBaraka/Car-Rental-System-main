@@ -5,13 +5,13 @@ User can login then rent a car<br /> <br />
 User can also download the bill generated.
 
 # Key Features
-User Authentication: Users can create accounts, log in, and manage their profiles.
-Car Listings: A comprehensive list of available cars for rent is provided, complete with details such as model, rental price, and availability.
-Car Rental: Users can select and rent cars with a few simple clicks.
-Billing and Invoice Generation: After a successful rental, users can download an automatically generated invoice for their transaction.
-Admin Panel: Rental companies or system administrators can manage cars, users, and rentals through Django’s built-in admin interface.
-Responsive Design: The platform is designed to work on both desktop and mobile devices, ensuring accessibility on the go.
-Secure Data Handling: Passwords are hashed and data is managed securely using Django's robust security features.
+*User Authentication: Users can create accounts, log in, and manage their profiles.
+*Car Listings: A comprehensive list of available cars for rent is provided, complete with details such as model, rental price, and availability.
+*Car Rental: Users can select and rent cars with a few simple clicks.
+*Billing and Invoice Generation: After a successful rental, users can download an automatically generated invoice for their transaction.
+*Admin Panel: Rental companies or system administrators can manage cars, users, and rentals through Django’s built-in admin interface.
+*Responsive Design: The platform is designed to work on both desktop and mobile devices, ensuring accessibility on the go.
+*Secure Data Handling: Passwords are hashed and data is managed securely using Django's robust security features.
 
 ## About Django : <br /> <br />
 Django is an MVT web framework that is used to build web applications.Django has an in-built administration interface which lets you handle your models, user/ group permissions and to manage users. With model interface in place, there is no need for a separate database administration program for all but advanced database functions.Django can check if an entered password is correct by running it through the hash function and comparing the output to the stored hash value.Internally, while it provides choices for almost any functionality you might want (e.g. several popular databases, templating engines, etc.), it can also be extended to use other components if needed.
