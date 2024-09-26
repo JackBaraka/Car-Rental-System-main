@@ -15,7 +15,7 @@ Django is an MVT web framework that is used to build web applications.Django has
 # Aknowledgements
 Django team for the excellent framework
 
-All the tech students we worked with together in this project:
+All the tech students we worked with together in this project:<br /> <br />
 Ousa Eddy Oliver                   
 Nyongesa Jack Nyongesa      
 Lister Kemuma Nyanchongi   
