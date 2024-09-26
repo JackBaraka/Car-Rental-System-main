@@ -1,5 +1,6 @@
 # Ousa Car Rental System
 This is a Car rental system implemented using Django FrameWork.<br /> <br />
+The system is designed to make the process of renting vehicles more accessible and efficient for both car rental companies and customers. <br /> <br />
 User can login then rent a car<br /> <br /> 
 User can also download the bill generated.
 
