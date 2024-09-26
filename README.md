@@ -1,4 +1,4 @@
-# Car-Rental-System
+# Ousa Car Rental System
 This is a Car rental system implemented using Django FrameWork.<br /> <br />
 User can login then rent a car 
 User can also download the bill generated.
@@ -11,6 +11,15 @@ Django is an MVT web framework that is used to build web applications.Django has
 * CSS
 * Python 
 * SQLITE3 (Default database of django)
+
+# Aknowledgements
+Django team for the excellent framework
+
+All the tech students we worked with together in this project:
+Ousa Eddy Oliver                   
+Nyongesa Jack Nyongesa      
+Lister Kemuma Nyanchongi   
+Stephanie Regina Kemunto 
 
 ## Installation : 
 ```
