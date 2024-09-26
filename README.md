@@ -35,15 +35,15 @@ pip install -r requirements.txt
 Run database migrations:
 bash
 Copy code
-python manage.py migrate
+python manage.py migrate<br /> <br />
 Create a superuser (for admin access):
 bash
 Copy code
-python manage.py createsuperuser
+python manage.py createsuperuser<br /> <br />
 Run the server:
 bash
 Copy code
-python manage.py runserver
+python manage.py runserver<br /> <br />
 Once the server is running, access the system at http://127.0.0.1:8000/.
 
 # Aknowledgements
